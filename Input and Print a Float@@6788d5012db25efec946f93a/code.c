@@ -1,9 +1,8 @@
 #include<stdio.h>
 int main()
 {
-    int a;
-    a=0;
-    scanf("%d",&a);
-    printf(a)
+    float a;
+    scanf("f",&a);
+    printf(a);
     return 0;
 }
