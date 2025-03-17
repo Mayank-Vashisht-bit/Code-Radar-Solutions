@@ -1,9 +1,10 @@
 #include<stdio.h>
 int main(){
     int a;
-    if(a & 1){
-        printf("Set");
-    }else{
+    scanf("%d",&a);
+    if(a&1){
         printf("Not Set");
-    }return 0;
+    }else{
+        printf("Set");
+    }
 }
