@@ -1,6 +1,6 @@
 #include<stdio.h>
 int main(){
-    int a;
+    int num;
     scanf("%u",&a);
     if(num&(1<<31)){
         printf("Set");
