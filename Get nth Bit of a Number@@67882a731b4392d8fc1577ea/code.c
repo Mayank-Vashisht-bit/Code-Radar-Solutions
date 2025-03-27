@@ -14,6 +14,6 @@ int main(){
     int a,b;
     scanf("%d %d",&a,&b);
     int bitValue = (a>>b)&1;
-    printf("The value of bit %d is: %d\n",b,bitValue);
+    printf("%d\n",b,bitValue);
     return 0;
 }
